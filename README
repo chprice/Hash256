@@ -1,0 +1,15 @@
+#Channon Price
+#2/15/10
+#Program to compute sha256 hashes of files in a specified directory.
+
+#NOTE: Currently only set up to handle windows OS. Minor changes and testing needed to change file handling to work with unix.
+
+#Has four main functions.
+#makeHash computes the sha256 hash of a file
+#getFileNames generates a list of all file names within a given directory and their hashes
+#openFile opens a precomputed list of filenames and hashes
+#writeFile writes a list of filenames and hashes
+
+#Call writeFile(getFileNames()) to write a file with the hashes for a directory.
+
+#The program currently compares an inputted hashfile to an inputted directory tree and returns any discrepancies.
